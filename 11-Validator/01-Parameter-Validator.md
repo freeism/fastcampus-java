@@ -2,10 +2,17 @@
 
 ## 이론
 
-### 
-
-*  
-
+* Parameter Validator란?
+  * 내부 로직에서 처리할 수 없는 입력값을 사전에 검증하고, 필요한 오류 및 메시지로 매핑해서 응답하는 것
+* @NotEmpty
+  * 해당 값이 null이거나 empty string("")에 대해서 검증하는 어노테이션
+  * 속성
+    * message : 해당 validation을 통과하지 못할 경우 표시할 오류 메시지
+* @NotBlank
+  * 해당 값이 null이거나 empty string("") 및 공백 문자열(" ")까지 검증하는 어노테이션
+* @Valid
+  * 일반적으로 validator는 해당 인자에 대해서만 검증하므로, 검증 대상이 객체이면 recursive하게 검증할 수 있도록 표시해주는 어노테이션
+  
 ## 실전코드
 
 ```java

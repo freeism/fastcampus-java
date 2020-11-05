@@ -2,9 +2,17 @@
 
 ## 이론
 
-### 
-
-*  
+* Pageable
+  * JPA에서 정의한 Paging을 위한 인터페이스
+  * 속성
+    * content
+    * totalPages
+    * totalElements
+    * numberOfElements
+* PageRequest
+  * Pageable 인터페이스를 구현한 구현체
+* @PageableDefault
+  * API에서 페이징을 위한 파라미터가 존재하지 않을 때, 페이징을 위한 기본값을 제공
 
 ## 실전코드
 

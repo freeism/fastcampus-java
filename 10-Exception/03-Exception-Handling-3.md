@@ -2,10 +2,13 @@
 
 ## 이론
 
-### 
-
-*  
-
+* 전역 예외처리
+  * @RestControllerAdvice와 @ExceptionHandler를 조합하여 전체 RestController의 예외에 대해서 처리할 수 있음
+* @RestControllerAdvice
+  * RestController에 전역적으로 동작하는 AOP 어노테이션
+* @ResponseStatus
+  * Controller에서 응답하는 Http Response Code를 지정할 수 있음
+  
 ## 실전코드
 
 ```java

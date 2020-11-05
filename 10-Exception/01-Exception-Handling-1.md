@@ -2,10 +2,13 @@
 
 ## 이론
 
-### 
-
-*  
-
+* Exception의 종류
+  * Checked Exception
+  * Unchecked Exception (Runtime Exception)
+* Custom Exception의 필요성
+  * 시스템의 오류와 분류하여 처리하기 위함
+  * 구체화된 테스트를 만들기 용이함
+  
 ## 실전코드
 
 ```java

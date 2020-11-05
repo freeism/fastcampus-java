@@ -16,95 +16,95 @@
 #### 1-cycle 내용정리
 
 * JPA
-** Entity 생성
-** @OneToOne Relation
-*** CascadeType
-*** FetchType
-*** Optional, orphanRemoval
-** QueryMethod
-** @Embedded
-** @Valid
-** @Query
-** @Where (for soft-delete)
-** Data.sql
+  * Entity 생성
+  * @OneToOne Relation
+    * CascadeType
+    * FetchType
+    * Optional, orphanRemoval
+  * QueryMethod
+  * @Embedded
+  * @Valid
+  * @Query
+  * @Where (for soft-delete)
+  * Data.sql
 
 * SpringMvc
-** @GetMapping
-** @PostMapping
-** @PutMapping
-** @PatchMapping
-** @DeleteMapping
-** @PathVariable
-** @RequestBody
+  * @GetMapping
+  * @PostMapping
+  * @PutMapping
+  * @PatchMapping
+  * @DeleteMapping
+  * @PathVariable
+  * @RequestBody
 
 * Lombok
-** @Getter
-** @Setter
-** @ToString
-** @Constructor
-** @EqualsAndHashCode
-** @Data
+  * @Getter
+  * @Setter
+  * @ToString
+  * @Constructor
+  * @EqualsAndHashCode
+  * @Data
 
 * SpringTest
 
 * Java8
-** Stream
-** Fileter
-** Map
+  * Stream
+  * Fileter
+  * Map
 
 #### 2-cycle 내용정리
 
 * SpringMvc
-** CustomJsonSerializer
+  * CustomJsonSerializer
 
 * SpringTest
-** MockMvc Test
-** Matcher
-** Junit5
+  * MockMvc Test
+  * Matcher
+  * Junit5
 
 * MockTest
-** Mockito
-** CustomArgumentMatcher
+  * Mockito
+  * CustomArgumentMatcher
 
 * Exception Handling
-** CustomException
-** ExceptionalHandler
-** GlobalExceptionHandler
+  * CustomException
+  * ExceptionalHandler
+  * GlobalExceptionHandler
 
 * Parameter Validator
-** @NotEmpty
-** @NotBlank
-** @Valid
+  * @NotEmpty
+  * @NotBlank
+  * @Valid
 
 * Paging
-** Pageable
-** Page<T>
+  * Pageable
+  * Page<T>
 
 ### 추가로 학습할 것
 
 * FrontEnd 개발
-** Web
-*** VueJs
-*** ReactJs
-** App
-*** Android App
-*** IOS App
+  * Web
+    * VueJs
+    * ReactJs
+  * App
+    * Android App
+    * IOS App
 
 * DB 연동
-** MySQL
-** MongDB
+  * MySQL
+  * MongDB
 
 * Spring(Boot)의 중급활용
-** 추가적인 설정
-** Customizing 설정
+  * 추가적인 설정
+  * Customizing 설정
 
 * JPA 중급활용
-** 다양한 Relation
-** QueryDSL
-** Jooq
+  * 다양한 Relation
+  * QueryDSL
+  * Jooq
 
 * 로직의 확장
-** 추가적인 스펙
+  * 추가적인 스펙
 
 ```java
 @Entity
