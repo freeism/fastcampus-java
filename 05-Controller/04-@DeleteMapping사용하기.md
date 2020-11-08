@@ -2,9 +2,8 @@
 
 ## 이론
 
-### @DeleteMapping
-
-* Delete 메소드의 Http 요청을 받을 수 있는 메소드임을 명시하는 어노테이션 
+* @DeleteMapping
+  * Delete 메소드의 Http 요청을 받을 수 있는 메소드임을 명시하는 어노테이션 
 
 ## 실전코드
 

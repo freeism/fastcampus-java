@@ -1,11 +1,5 @@
 # Controller Test #1
 
-## 이론
-
-### 
-
-*  
-
 ## 실전코드
 
 ```java

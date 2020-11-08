@@ -2,9 +2,27 @@
 
 ## 이론
 
-### 
-
-*  
+* Controller Test에서 사용하는 메소드
+    * jsonPath
+      * $ : 객체를 의미함
+      * .name : 객체의 name attribute를 가져옴, getName()을 사용한다고 생각하면 됨
+      * . 체이닝을 통해서 recursive하게 데이터 추출이 가능
+    * value(A)
+      * 값이 A와 동일한지 검증함
+    * imEmpty()
+      * 값이 빈 값인지 검증함
+    * isNumber()
+      * 값이 숫자값인지 검증함
+    * isBoolean()
+      * true/false 값인지 검증함
+* JsonSerializer<T>
+  * serialize()
+* @Configuration
+  * Spring의 Configuration Bean임을 표시하는 어노테이션
+* MappingJackson2HttpMessageConverter
+  * Spring의 Controller에서 반환하는 결과를 Json으로 만드는데, 해당 포맷을 커스터마이징할 수 있게 해줌
+* SimpleModule
+  * 커스텀으로 만든 Serializer를 Converter에 등록하기 위해서 모듈화해줌
 
 ## 실전코드
 

@@ -2,9 +2,14 @@
 
 ## 이론
 
-### 
+* argThat
+  * ArgumentMatcher class를 이용해서 결과를 검증하겠다는 의미
 
-*  
+* ArgumentMatcher<T>
+  * 테스트 결과값을 검증하는 matcher를 custom하게 개발할 수 있도록 제공하는 인터페이스
+  * matches()
+    * 해당 method를 override하여 값을 검증할 수 있음 
+    * 검증 후 결과를 boolean으로 리턴하여 테스트를 검증할 수 있도록 함
 
 ## 실전코드
 
